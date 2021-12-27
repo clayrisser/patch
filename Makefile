@@ -3,7 +3,7 @@
 # File Created: 27-12-2021 00:29:41
 # Author: Clay Risser
 # -----
-# Last Modified: 27-12-2021 00:32:57
+# Last Modified: 27-12-2021 01:01:57
 # Modified By: Clay Risser
 # -----
 # BitSpur Inc (c) Copyright 2021
@@ -27,6 +27,10 @@ ifneq (,$(MKPM_READY))
 -include main.mk
 
 PACK_DIR := $(MKPM_TMP)/pack
+
+.PHONY: info
+info:
+	@$(ENV)
 
 .PHONY: pack
 pack:
