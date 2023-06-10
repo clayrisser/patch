@@ -3,7 +3,7 @@
 # File Created: 27-12-2021 00:29:41
 # Author: Clay Risser
 # -----
-# Last Modified: 10-06-2023 12:27:14
+# Last Modified: 10-06-2023 12:33:37
 # Modified By: Clay Risser
 # -----
 # BitSpur Inc (c) Copyright 2021
@@ -29,7 +29,7 @@ export PATCH ?= patch
 export PATCHES_TMP := $(addsuffix .tmp,$(PATCHES))
 export PATCHES_PATCH := $(addprefix patches/,$(addsuffix .patch,$(PATCHES)))
 
-export TMPDIR ?= /tmp
+export TMPDIR := /tmp
 
 .PHONY: patch-apply
 patch-apply: $(PATCHES) $(PATCHES_PATCH)

@@ -3,7 +3,7 @@
 # File Created: 27-12-2021 00:29:41
 # Author: Clay Risser
 # -----
-# Last Modified: 10-06-2023 12:27:25
+# Last Modified: 10-06-2023 12:33:43
 # Modified By: Clay Risser
 # -----
 # BitSpur Inc (c) Copyright 2021
@@ -22,7 +22,7 @@
 
 MKPM_PKG_NAME := patch
 
-MKPM_PKG_VERSION := 0.0.2
+MKPM_PKG_VERSION := 0.0.3
 
 MKPM_PKG_DESCRIPTION := "patch 3rd party projects"
 
