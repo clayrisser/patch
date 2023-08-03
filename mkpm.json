@@ -1,0 +1,16 @@
+{
+  "name": "patch",
+  "version": "0.0.4",
+  "description": "patch 3rd party projects",
+  "author": "Clay Risser <clayrisser@gmail.com>",
+  "repo": "git@gitlab.com:bitspur/mkpm/packages.git",
+  "source": "https://gitlab.com/bitspur/mkpm/patch.git",
+  "packages": {
+    "default": {
+      "gnu": "0.1.0"
+    }
+  },
+  "repos": {
+    "default": "https://gitlab.com/bitspur/mkpm/packages.git"
+  }
+}
