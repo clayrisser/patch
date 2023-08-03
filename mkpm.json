@@ -1,6 +1,6 @@
 {
   "name": "patch",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "patch 3rd party projects",
   "author": "Clay Risser <clayrisser@gmail.com>",
   "repo": "git@gitlab.com:bitspur/mkpm/packages.git",
